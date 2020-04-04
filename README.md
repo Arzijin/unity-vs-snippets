@@ -22,8 +22,8 @@ Resulting Format : <code> Debug.Log("[ClassName] Message {Variable}"); </code>
 
 ##### wlog : Log warning without variable
 
-Command : *wlog* 
-Variables : Message
+Command : *wlog* <br/>
+Variables : Message <br/>
 Resulting Format : <code> Debug.LogWarning("[ClassName] Warning : Message"); </code>
 
 ##### wlogm : Log warning with one variable
