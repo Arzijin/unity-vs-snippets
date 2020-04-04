@@ -1,6 +1,10 @@
 # Code snippets
-- dlog.snippet : Snippet to format logging instructions 
-### Debug (dlog.snippet)
+Clone this repo in your Microsoft Visual Studio custom snippets folder.
+
+##### Snippets list :
+- **dlog.snippet** : Formats logging instructions 
+
+## Debug (dlog.snippet)
 
 Each command will import <code>UnityEngine</code> because of dependency of <code>Debug.Log*</code> functions.
 
