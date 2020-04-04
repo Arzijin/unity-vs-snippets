@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <!-- Log -->
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Unity log debug without variable</Title>
+      <Author>Arzijin</Author>
+      <Description>Debug without variable.</Description>
+      <Shortcut>dlog</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[Debug.Log("[$Class$] $Message$");]]>
+      </Code>
+      <Imports>
+        <Import>
+          <Namespace>UnityEngine</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal Editable="false">
+          <ID>Class</ID>
+          <ToolTip>Class name</ToolTip>
+          <Function>ClassName()</Function>
+          <Default>ClassNamePlaceholder</Default>
+        </Literal>
+        <Literal>
+          <ID>Message</ID>
+          <ToolTip>Message to log</ToolTip>
+          <Default>Message</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet> 
+  <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Unity log debug with one variable</Title>
+            <Author>Arzijin</Author>
+            <Description>Debug with one variable.</Description>
+            <Shortcut>dlogm</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[Debug.Log($$"[$Class$] $Message$ {$Variable$}");]]>
+            </Code>
+          <Imports>
+            <Import>
+              <Namespace>UnityEngine</Namespace>
+            </Import>
+          </Imports>
+          <Declarations>
+            <Literal Editable="false">
+              <ID>Class</ID>
+              <ToolTip>Class name</ToolTip>
+              <Function>ClassName()</Function>
+              <Default>ClassNamePlaceholder</Default>
+            </Literal>
+            <Literal>
+              <ID>Message</ID>
+              <ToolTip>Message to log</ToolTip>
+              <Default>Message</Default>
+            </Literal>
+            <Literal>
+              <ID>Variable</ID>
+              <ToolTip>Variable to log</ToolTip>
+              <Default></Default>
+            </Literal>
+          </Declarations>
+        </Snippet>
+    </CodeSnippet>
+  
+  <!-- Warning Log -->
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Unity log warning without variable</Title>
+      <Author>Arzijin</Author>
+      <Description>Debug warning without variable.</Description>
+      <Shortcut>wlog</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[Debug.LogWarning("[$Class$] Warning : $Message$");]]>
+      </Code>
+      <Imports>
+        <Import>
+          <Namespace>UnityEngine</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal Editable="false">
+          <ID>Class</ID>
+          <ToolTip>Class name</ToolTip>
+          <Function>ClassName()</Function>
+          <Default>ClassNamePlaceholder</Default>
+        </Literal>
+        <Literal>
+          <ID>Message</ID>
+          <ToolTip>Message to log</ToolTip>
+          <Default>Message</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Unity log warning with one variable</Title>
+      <Author>Arzijin</Author>
+      <Description>Debug warning with one variable.</Description>
+      <Shortcut>wlogm</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[Debug.LogWarning($$"[$Class$] Warning : $Message$ {$Variable$}");]]>
+      </Code>
+      <Imports>
+        <Import>
+          <Namespace>UnityEngine</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal Editable="false">
+          <ID>Class</ID>
+          <ToolTip>Class name</ToolTip>
+          <Function>ClassName()</Function>
+          <Default>ClassNamePlaceholder</Default>
+        </Literal>
+        <Literal>
+          <ID>Message</ID>
+          <ToolTip>Message to log</ToolTip>
+          <Default>Message</Default>
+        </Literal>
+        <Literal>
+          <ID>Variable</ID>
+          <ToolTip>Variable to log</ToolTip>
+          <Default></Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+
+  <!-- Error Log -->
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Unity log error without variable</Title>
+      <Author>Arzijin</Author>
+      <Description>Debug error without variable.</Description>
+      <Shortcut>erlog</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[Debug.LogError("[$Class$] Error : $Message$");]]>
+      </Code>
+      <Imports>
+        <Import>
+          <Namespace>UnityEngine</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal Editable="false">
+          <ID>Class</ID>
+          <ToolTip>Class name</ToolTip>
+          <Function>ClassName()</Function>
+          <Default>ClassNamePlaceholder</Default>
+        </Literal>
+        <Literal>
+          <ID>Message</ID>
+          <ToolTip>Message to log</ToolTip>
+          <Default>Message</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Unity log error with one variable</Title>
+      <Author>Arzijin</Author>
+      <Description>Debug error with one variable.</Description>
+      <Shortcut>erlogm</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[Debug.LogError($$"[$Class$] Error : $Message$ {$Variable$}");]]>
+      </Code>
+      <Imports>
+        <Import>
+          <Namespace>UnityEngine</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal Editable="false">
+          <ID>Class</ID>
+          <ToolTip>Class name</ToolTip>
+          <Function>ClassName()</Function>
+          <Default>ClassNamePlaceholder</Default>
+        </Literal>
+        <Literal>
+          <ID>Message</ID>
+          <ToolTip>Message to log</ToolTip>
+          <Default>Message</Default>
+        </Literal>
+        <Literal>
+          <ID>Variable</ID>
+          <ToolTip>Variable to log</ToolTip>
+          <Default></Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
