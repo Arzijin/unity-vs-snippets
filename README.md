@@ -6,42 +6,42 @@ Each command will import <code>UnityEngine</code> because of dependency of <code
 
 #### Standard Log
 
-##### dlog
+##### dlog : Log without variable
 
-Command : *dlog* 
-Variables : Message
+Command : *dlog* <br/>
+Variables : Message <br/>
 Resulting Format : <code> Debug.Log("[ClassName] Message"); </code>
 
-##### dlogm
+##### dlogm : Log with one variable
 
-Command : *dlogm* 
-Variables : Message, Variable
+Command : *dlogm* <br/>
+Variables : Message, Variable <br/>
 Resulting Format : <code> Debug.Log("[ClassName] Message {Variable}"); </code>
 
 #### Warning Log
 
-##### wlog
+##### wlog : Log warning without variable
 
 Command : *wlog* 
 Variables : Message
 Resulting Format : <code> Debug.LogWarning("[ClassName] Warning : Message"); </code>
 
-##### wlogm
+##### wlogm : Log warning with one variable
 
-Command : *wlogm* 
-Variables : Message, Variable
+Command : *wlogm* <br/>
+Variables : Message, Variable <br/>
 Resulting Format : <code> Debug.LogWarning("[ClassName] Warning : Message {Variable}"); </code>
 
 #### Error Log
 
-##### erlog
+##### erlog : Log error without variable
 
-Command : *erlog* 
-Variables : Message
+Command : *erlog* <br/>
+Variables : Message <br/>
 Resulting Format : <code> Debug.LogError("[ClassName] Error : Message"); </code>
 
-##### erlogm
+##### erlogm : Log error with one variable
 
-Command : *erlogm* 
-Variables : Message, Variable
+Command : *erlogm* <br/>
+Variables : Message, Variable <br/>
 Resulting Format : <code> Debug.LogError("[ClassName] Error : Message {Variable}"); </code>
