@@ -3,14 +3,14 @@
   <!-- Log -->
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>Unity log debug without variable</Title>
+      <Title>Custom CINEVR log debug without variable</Title>
       <Author>Arzijin</Author>
       <Description>Debug without variable.</Description>
       <Shortcut>dlog</Shortcut>
     </Header>
     <Snippet>
       <Code Language="CSharp">
-        <![CDATA[Debug.Log("[$Class$] $Message$");]]>
+        <![CDATA[Logging.Log("[$Class$] $Message$");]]>
       </Code>
       <Imports>
         <Import>
@@ -34,14 +34,14 @@
   </CodeSnippet> 
   <CodeSnippet Format="1.0.0">
         <Header>
-            <Title>Unity log debug with one variable</Title>
+            <Title>Custom CINEVR log debug with one variable</Title>
             <Author>Arzijin</Author>
             <Description>Debug with one variable.</Description>
             <Shortcut>dlogm</Shortcut>
         </Header>
         <Snippet>
             <Code Language="CSharp">
-                <![CDATA[Debug.Log($$"[$Class$] $Message$ {$Variable$}");]]>
+                <![CDATA[Logging.Log($$"[$Class$] $Message$ {$Variable$}");]]>
             </Code>
           <Imports>
             <Import>
@@ -72,14 +72,14 @@
   <!-- Warning Log -->
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>Unity log warning without variable</Title>
+      <Title>Custom CINEVR log warning without variable</Title>
       <Author>Arzijin</Author>
       <Description>Debug warning without variable.</Description>
       <Shortcut>wlog</Shortcut>
     </Header>
     <Snippet>
       <Code Language="CSharp">
-        <![CDATA[Debug.LogWarning("[$Class$] Warning : $Message$");]]>
+        <![CDATA[Logging.LogWarning("[$Class$] Warning : $Message$");]]>
       </Code>
       <Imports>
         <Import>
@@ -103,14 +103,14 @@
   </CodeSnippet>
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>Unity log warning with one variable</Title>
+      <Title>Custom CINEVR log warning with one variable</Title>
       <Author>Arzijin</Author>
       <Description>Debug warning with one variable.</Description>
       <Shortcut>wlogm</Shortcut>
     </Header>
     <Snippet>
       <Code Language="CSharp">
-        <![CDATA[Debug.LogWarning($$"[$Class$] Warning : $Message$ {$Variable$}");]]>
+        <![CDATA[Logging.LogWarning($$"[$Class$] Warning : $Message$ {$Variable$}");]]>
       </Code>
       <Imports>
         <Import>
@@ -141,14 +141,14 @@
   <!-- Error Log -->
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>Unity log error without variable</Title>
+      <Title>Custom CINEVR log error without variable</Title>
       <Author>Arzijin</Author>
       <Description>Debug error without variable.</Description>
       <Shortcut>erlog</Shortcut>
     </Header>
     <Snippet>
       <Code Language="CSharp">
-        <![CDATA[Debug.LogError("[$Class$] Error : $Message$");]]>
+        <![CDATA[Logging.LogError("[$Class$] Error : $Message$");]]>
       </Code>
       <Imports>
         <Import>
@@ -172,14 +172,14 @@
   </CodeSnippet>
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>Unity log error with one variable</Title>
+      <Title>Custom CINEVR log error with one variable</Title>
       <Author>Arzijin</Author>
       <Description>Debug error with one variable.</Description>
       <Shortcut>erlogm</Shortcut>
     </Header>
     <Snippet>
       <Code Language="CSharp">
-        <![CDATA[Debug.LogError($$"[$Class$] Error : $Message$ {$Variable$}");]]>
+        <![CDATA[Logging.LogError($$"[$Class$] Error : $Message$ {$Variable$}");]]>
       </Code>
       <Imports>
         <Import>
