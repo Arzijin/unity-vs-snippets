@@ -1,5 +1,7 @@
-# Code snippets
+# Code snippets for CINEVR
 Clone this repo in your Microsoft Visual Studio custom snippets folder.
+
+### :warning: This branch need the CINEVR.Core.Logging scripts
 
 ##### Snippets list :
 - **dlog.snippet** : Formats logging instructions 
@@ -14,13 +16,13 @@ Each command will import <code>UnityEngine</code> because of dependency of <code
 
 Command : *dlog* <br/>
 Variables : Message <br/>
-Resulting Format : <code> Debug.Log("[ClassName] Message"); </code>
+Resulting Format : <code> Logging.Log("[ClassName] Message"); </code>
 
 ##### dlogm : Log with one variable
 
 Command : *dlogm* <br/>
 Variables : Message, Variable <br/>
-Resulting Format : <code> Debug.Log("[ClassName] Message {Variable}"); </code>
+Resulting Format : <code> Logging.Log("[ClassName] Message {Variable}"); </code>
 
 #### Warning Log
 
@@ -28,13 +30,13 @@ Resulting Format : <code> Debug.Log("[ClassName] Message {Variable}"); </code>
 
 Command : *wlog* <br/>
 Variables : Message <br/>
-Resulting Format : <code> Debug.LogWarning("[ClassName] Warning : Message"); </code>
+Resulting Format : <code> Logging.LogWarning("[ClassName] Warning : Message"); </code>
 
 ##### wlogm : Log warning with one variable
 
 Command : *wlogm* <br/>
 Variables : Message, Variable <br/>
-Resulting Format : <code> Debug.LogWarning("[ClassName] Warning : Message {Variable}"); </code>
+Resulting Format : <code> Logging.LogWarning("[ClassName] Warning : Message {Variable}"); </code>
 
 #### Error Log
 
@@ -42,10 +44,10 @@ Resulting Format : <code> Debug.LogWarning("[ClassName] Warning : Message {Varia
 
 Command : *erlog* <br/>
 Variables : Message <br/>
-Resulting Format : <code> Debug.LogError("[ClassName] Error : Message"); </code>
+Resulting Format : <code> Logging.LogError("[ClassName] Error : Message"); </code>
 
 ##### erlogm : Log error with one variable
 
 Command : *erlogm* <br/>
 Variables : Message, Variable <br/>
-Resulting Format : <code> Debug.LogError("[ClassName] Error : Message {Variable}"); </code>
+Resulting Format : <code> Logging.LogError("[ClassName] Error : Message {Variable}"); </code>
